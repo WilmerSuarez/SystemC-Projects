@@ -1,0 +1,9 @@
+MINI RISC PROCESSOR
+
+RUNNING TEST:
+Execute the 'test' script in the top level directory: ./test
+
+TEST EXPLINATION:
+The pipeline is a 5 stage pipeline. 
+The test begins with 5 NOP to fill the pipeline initially.
+Then, all instructions are tested. 

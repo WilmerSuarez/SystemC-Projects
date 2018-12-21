@@ -1,0 +1,4 @@
+#!/bin/bash
+
+make
+bin/mini_risc_proc
