@@ -18,6 +18,6 @@ SC_MODULE(monitor) {
     // ===== CONSTRUCTOR ===== //
     SC_CTOR(monitor) {
         SC_METHOD(process_monitor);
-	    sensitive << monitor_reset << monitor_clear << monitor_in_data << monitor_count << monitor_error << monitor_payload;
+	        sensitive << monitor_reset << monitor_clear << monitor_in_data << monitor_count << monitor_error << monitor_payload;
     }
 };

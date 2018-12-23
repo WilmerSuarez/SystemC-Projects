@@ -21,6 +21,6 @@ SC_MODULE(packet_translator) {
     // ===== CONSTRUCTOR ===== //
     SC_CTOR(packet_translator) {
         SC_METHOD(process_packet_translator);
-	    sensitive << clock.pos();
+	        sensitive << clock.pos();
     }
 };

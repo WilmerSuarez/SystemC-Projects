@@ -21,6 +21,6 @@ SC_MODULE(counter_1) {
     // ----- CONSTRUCTOR ----- //
     SC_CTOR(counter_1) {
         SC_METHOD(process_count_1);
-	    sensitive << clock.pos();
+	        sensitive << clock.pos();
     }
 };

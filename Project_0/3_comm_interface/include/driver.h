@@ -15,6 +15,6 @@ SC_MODULE(driver) {
     
     // ===== CONSTRUCTOR ===== //
     SC_CTOR(driver) {
-	SC_THREAD(process_driver);	    
+	    SC_THREAD(process_driver);	    
     }
 };
